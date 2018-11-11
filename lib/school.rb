@@ -18,4 +18,8 @@ class School
     @roster
   end
   
+  def grade(grade_int)
+    @roster[grade_int]
+  end
+  
 end
