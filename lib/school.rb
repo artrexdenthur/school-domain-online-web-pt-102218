@@ -24,6 +24,9 @@ class School
   
   def sort
     @roster.each |grade, s_arr| do
-      @roster[grade].
+      @roster[grade].sort
+    end
+    @roster
+  end
   
 end
