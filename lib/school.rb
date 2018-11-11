@@ -6,5 +6,15 @@ class School
   
   def initialize(name)
     @name = name
+    @roster = {}
   end
+  
+  def add_grade_roster(grade, student_array)
+    @roster[grade] = student_array
+  end
+  
+  def roster
+    @roster
+  end
+  
 end
