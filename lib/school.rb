@@ -9,7 +9,7 @@ class School
     @roster = {}
   end
   
-  def add_grade_roster(grade, student_array)
+  def add_student(grade, student_array)
     @roster[grade] = student_array
   end
   
