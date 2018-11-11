@@ -22,4 +22,8 @@ class School
     @roster[grade_int]
   end
   
+  def sort
+    @roster.each |grade, s_arr| do
+      @roster[grade].
+  
 end
